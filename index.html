@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0f979fb495.js" crossorigin="anonymous"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding">Designs by REID</a>
+            <ul class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#service" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav> 
+    </header>
+    <div id="home" class="flex-container">
+        <div class="home-page">
+            <h1 class="title">Custom handcrafted masterpieces</h1>
+            <div class="img-wrapper">
+                <img src="candle.jpg" alt="candle">
+                <img src="wallart.jpg" alt="wall art">
+                <img src="ladder.jpg" alt="ladder">
+            </div>
+        </div>
+    </div>
+    <a name="service"></a>
+    <div id="service" class="service-page">
+        <div class="all-items">
+            <div class="item">
+                <div class="left">
+                    <div class="img">
+                        <img src="wood11.jpg" alt="service-img">
+                    </div>
+                </div>
+                <div class="right">
+                    <h4 class="service-title">Example Wood Products
+                    </h4>
+                    <h5 class="serivce-sub-title">
+                    </h5>
+                    <p class="service-desc">There is no limit to the imagination. Soft and Hardwoods
+                                            to include Pine, Ash, Maple, Oak, Birtch
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="left">
+                <div class="img">
+                    <img src="table00.jpg" alt="service-img">
+                </div>
+            </div>
+            <div class="right">
+                <h4 class="service-title">Wood Epoxy Tables
+                </h4>
+                <h5 class="service-sub-title">
+                </h5>
+                <p class="service-desc">Beautiful Handmaid Table comes in a variety of shapes and sizes.
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="left">
+                <div class="img">
+                    <img src="metal11.jpg" alt="service-img">
+                </div>
+            </div>
+            <div class="right">
+                <h4 class="service-title">Unique but functional metal art.
+                </h4>
+                <h5 class="service-sub-title">
+                </h5>
+                <p class="service-desc">From Sheet metal to industrial piping. there is a wide range of materials to choose from to give you that WOW factor.
+                </p>
+            </div>
+        </div>
+    </div>
+    <a name="about"></a>
+    <div id="about" class="flex-container1">
+        <div class="about-page">
+            <h2 data-outline="About me">About Me</h2>
+            <p>Designs by REID was created 10 years ago, and was comprised of small 
+               woodworking decor projects. This compny provides high Quality services that include 
+               Wood, Metal, and Epoxy type materials. 
+            </p>
+            <br class="middle">
+            <p class="sub">Every aspect of the work is produced by Hand and always made to order.
+            </p>
+        </div>
+    </div>
+    <a name="contact"></a>
+    <div id="contact" class="contact-container">
+        <form action="https://formsubmit.co/ryan.reid1111@gmail.com" method="POST">
+            <h3>GET IN TOUCH</h3>
+            <input type="hidden" name="_next" value="https://military-grade-dev.github.io/portfolio/thankyou.html">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <textarea id="message" name="textarea" rows="4" placeholder="How can I help you?"></textarea>
+            <button name="send" type="submit">Send</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
